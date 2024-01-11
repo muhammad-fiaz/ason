@@ -1,5 +1,8 @@
 <div align="center">
-# ASON: Adaptive Structure Object Notation
+  
+#  ASON: Adaptive Structure Object Notation
+
+<br>
 
 [![Run Tests](https://github.com/muhammad-fiaz/ason/actions/workflows/python-package.yaml/badge.svg)](https://github.com/muhammad-fiaz/ason/actions/workflows/python-package.yaml)
 [![PyPI Version](https://img.shields.io/pypi/v/ason)](https://pypi.org/project/ason/)
@@ -31,7 +34,7 @@ pip install ason
 
 ## Usage
 
-```python
+```python3
 # Usage example for Ason class
 
 from ason import ason
@@ -103,7 +106,7 @@ Result after setting a value using square bracket notation:
 
 {"name": "John", "new_age": 25, "city": "New York", "hobbies": ["${hobby1}", "${hobby2}", "Gardening"], "new_key": "new_value"}
 ```
-```
+
 ## Contributing
 Contributions are welcome! Before contributing, please read our [Contributing Guidelines](CONTRIBUTING.md) to ensure a smooth and collaborative development process.
 
