@@ -4,7 +4,7 @@
 
 <br>
 
-[![Run Tests](https://github.com/muhammad-fiaz/ason/actions/workflows/python-package.yaml/badge.svg)](https://github.com/muhammad-fiaz/ason/actions/workflows/python-package.yaml)
+[![Run Tests](https://github.com/muhammad-fiaz/ason/actions/workflows/package-tests.yaml/badge.svg)](https://github.com/muhammad-fiaz/ason/actions/workflows/package-tests.yaml)
 [![PyPI Version](https://img.shields.io/pypi/v/ason)](https://pypi.org/project/ason/)
 [![Python Versions](https://img.shields.io/pypi/pyversions/ason)](https://pypi.org/project/ason/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
