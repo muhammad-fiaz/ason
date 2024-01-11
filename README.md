@@ -7,7 +7,6 @@
 [![Run Tests](https://github.com/muhammad-fiaz/ason/actions/workflows/package-tests.yaml/badge.svg)](https://github.com/muhammad-fiaz/ason/actions/workflows/package-tests.yaml)
 [![PyPI Version](https://img.shields.io/pypi/v/ason)](https://pypi.org/project/ason/)
 [![Python Versions](https://img.shields.io/pypi/pyversions/ason)](https://pypi.org/project/ason/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Downloads](https://img.shields.io/pypi/dm/ason)](https://pypi.org/project/ason/)
 [![Last Commit](https://img.shields.io/github/last-commit/muhammad-fiaz/ason)](https://github.com/muhammad-fiaz/ason)
 [![GitHub Issues](https://img.shields.io/github/issues/muhammad-fiaz/ason)](https://github.com/muhammad-fiaz/ason/issues)
