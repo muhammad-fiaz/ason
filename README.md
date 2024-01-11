@@ -16,7 +16,7 @@
 
 [![Maintainer](https://img.shields.io/badge/Maintainer-muhammad--fiaz-blue)](https://github.com/muhammad-fiaz)
 [![Sponsor on GitHub](https://img.shields.io/badge/Sponsor%20on%20GitHub-Become%20a%20Sponsor-blue)](https://github.com/sponsors/muhammad-fiaz)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/github/license/muhammad-fiaz/ason)](https://github.com/muhammad-fiaz/ason/blob/main/LICENSE)
 [![Stability](https://img.shields.io/badge/Stability-Stable-green)](https://github.com/muhammad-fiaz/ason)
 
 ASON is a Python library designed for adaptive data serialization. It seamlessly handles various data structures, offering flexibility and simplicity inspired by JSON.
