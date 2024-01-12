@@ -83,7 +83,10 @@ class ason:
                     nested_as.set(variable, value)
                     updated_data[key] = nested_as.dumps()
                 elif isinstance(data_value, list):
-                    updated_data[key] = [self._handle_nested_type(variable, value, item) for item in data_value]
+                    if "${" + variable + "}" in data_value:
+                        updated_data[key] = [re.sub(fr'\${{{variable}}}', str(value), item) for item in data_value]
+                    else:
+                        updated_data[key] = [self._handle_nested_type(variable, value, item) for item in data_value]
                 else:
                     updated_data[key] = data_value
             self.data = updated_data
