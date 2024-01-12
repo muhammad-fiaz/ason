@@ -35,7 +35,7 @@ setup(
     ],
     setup_requires=['pytest-runner'],
     tests_require=['pytest'],
-    license='MIT License',
+    license='apache 2.0 license',
     project_urls={
         'Source Code': 'https://github.com/muhammad-fiaz/ason.git',
         'Bug Tracker': 'https://github.com/muhammad-fiaz/ason/issues',
