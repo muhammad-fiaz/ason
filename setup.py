@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = "0.0.0"
+VERSION = "0.0.1"
 
 DESCRIPTION = 'ASON: Adaptive Structure Object Notation - Python library for handling structured data with flexibility and ease.'
 
