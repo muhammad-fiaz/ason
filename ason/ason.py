@@ -1,4 +1,5 @@
 # ason.py
+import json
 import re
 from collections import OrderedDict
 from ason.exception import *
@@ -45,6 +46,9 @@ class ason:
 
          __setitem__(self, key, value):
              Sets the value of a key using the square bracket notation.
+
+         save_as_json(self, filename):
+            Saves the Ason data as a JSON file.
      """
     def __init__(self, data=None):
         """
@@ -140,6 +144,22 @@ class ason:
             return [self._handle_nested_type(variable, value, subitem) for subitem in item]
         else:
             return item
+
+    def save_as_json(self, filename):
+        """
+        Saves the Ason data as a JSON file.
+
+        Args:
+            filename (str): The name of the JSON file to save.
+
+        Raises:
+            SaveAsJsonOperationException: If an error occurs during the save operation.
+        """
+        try:
+            with open(filename, 'w') as json_file:
+                json.dump(dict(self.data), json_file, indent=2)
+        except Exception as e:
+            raise SaveAsJsonOperationException(f"An error occurred during 'save_as_json' operation: {e}")
 
     def replace(self, old_key, new_key, new_value):
         """
