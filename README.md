@@ -34,8 +34,6 @@ pip install ason
 ## Usage
 
 ```python3
-# Usage example for Ason class
-
 from ason import ason
 
 # Create an Ason object
@@ -81,7 +79,6 @@ print()
 ason_data["new_key"] = "new_value"
 print("Result after setting a value using square bracket notation:")
 print(ason_data.dumps())
-
 
 ```
 This example demonstrates how to create an Ason object, load data, set values for variables, and then dump the result. The output will be a dictionary with the replaced values:
